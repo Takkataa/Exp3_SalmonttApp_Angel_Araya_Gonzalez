@@ -1,6 +1,6 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
 
-# 🧠 Evaluación Final Transversal – Desarrollo Orientado a Objetos I
+# 🧠 Evaluación semana 6 – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 
@@ -13,10 +13,10 @@
 
 ## 📘 Descripción general del sistema
 
-Este proyecto corresponde a la primera Evaluación sumativa de la asignatura _Desarrollo Orientado a Objetos I_. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, asinacion, manejo de errores y relaciones entre clases.
+Este proyecto corresponde a la primera Evaluación sumativa de la asignatura _Desarrollo Orientado a Objetos I_. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, herencia, poliformismo, composición, asinacion, manejo de errores y relaciones entre clases.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
-En este caso se nos solicito realizar la digitalizacion de un salmonera en Puerto Montt llamada "SALMONTT" empezando desde lo la base en realcion a sus empleados.
+En este caso se nos solicito realizar la digitalizacion de un salmonera en Puerto Montt llamada "SALMONTT" empezando desde lo la base en relacion a sus empleados, plantas de produccion y centros de cultivos.
 
 ---
 
@@ -27,7 +27,7 @@ En este caso se nos solicito realizar la digitalizacion de un salmonera en Puert
 ├── app/         # Clase principal con el método main
 ├── model/       # Clases de dominio (Persona, Cliente, Empleado, Producto, etc.)
 ├── utils/       # Utilidades y validaciones
-└── ui/  # Interfaces implementadas por las clases
+└── ui/          # Interfaces implementadas por las clases
 ```
 
 ---
@@ -37,7 +37,7 @@ En este caso se nos solicito realizar la digitalizacion de un salmonera en Puert
 1. Clona el repositorio desde GitHub:
 
 ```bash
-https://github.com/Takkataa/Exp1_S3_Angel_Araya_Gonzalez_POO.git
+https://github.com/Takkataa/Exp3_SalmonttApp_Angel_Araya_Gonzalez.git
 ```
 
 2. Abre el proyecto en IntelliJ IDEA.
@@ -50,8 +50,8 @@ https://github.com/Takkataa/Exp1_S3_Angel_Araya_Gonzalez_POO.git
 
 ---
 
-**Repositorio GitHub:** https://github.com/Takkataa/Exp1_S3_Angel_Araya_Gonzalez_POO.git
-**Fecha de entrega:** \[10/11/2025]
+**Repositorio GitHub:**https://github.com/Takkataa/Exp3_SalmonttApp_Angel_Araya_Gonzalez.git
+**Fecha de entrega:** \[01/12/2025]
 
 ---
 
