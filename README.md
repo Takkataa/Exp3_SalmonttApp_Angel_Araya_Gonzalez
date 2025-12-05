@@ -1,8 +1,6 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
 
-# 🧠 Evaluación semana 6 – Desarrollo Orientado a Objetos I
-
-# 🧠 Evaluación semana 6 – Desarrollo Orientado a Objetos I
+# 🧠 Evaluación semana 7 – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 
@@ -39,7 +37,6 @@ En este caso se nos solicito realizar la digitalizacion de un salmonera en Puert
 1. Clona el repositorio desde GitHub:
 
 ```bash
-https://github.com/Takkataa/Exp3_SalmonttApp_Angel_Araya_Gonzalez.git
 https://github.com/Takkataa/Exp3_SalmonttApp_Angel_Araya_Gonzalez.git
 ```
 
