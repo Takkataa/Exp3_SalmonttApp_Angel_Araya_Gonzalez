@@ -2,6 +2,8 @@
 
 # 🧠 Evaluación semana 6 – Desarrollo Orientado a Objetos I
 
+# 🧠 Evaluación semana 6 – Desarrollo Orientado a Objetos I
+
 ## 👤 Autor del proyecto
 
 - **Nombre completo:** Angel Alexis Araya Gonzalez
@@ -37,6 +39,7 @@ En este caso se nos solicito realizar la digitalizacion de un salmonera en Puert
 1. Clona el repositorio desde GitHub:
 
 ```bash
+https://github.com/Takkataa/Exp3_SalmonttApp_Angel_Araya_Gonzalez.git
 https://github.com/Takkataa/Exp3_SalmonttApp_Angel_Araya_Gonzalez.git
 ```
 
