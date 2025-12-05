@@ -1,5 +1,10 @@
 package cl.salmontt.model;
 
+/**
+ * clase que representa un centro de cultivo, hereda de la clase UnidadOperativa
+ *
+ */
+
 public class CentroCultivo extends UnidadOperativa {
 
     private int capacidadDelProcesoToneladas;
@@ -28,8 +33,17 @@ public class CentroCultivo extends UnidadOperativa {
     }
 
     @Override
+    public void mostrarInformacion() {
+        System.out.println("Tipo: Centro de cultivo");
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Comuna: " + getComuna());
+        System.out.println("Capacidad del proceso en toneladas: " + capacidadDelProcesoToneladas);
+        System.out.println("Tiempo de cultivo en dias: " + tiempoDeCultivoDias);
+    }
+
+    @Override
     public String toString() {
-        return getNombre() + " [Capacidad del proceso en toneladas = " + capacidadDelProcesoToneladas
-                + ", tiempo de cultivo en dias = " + tiempoDeCultivoDias + "]";
+        return "CentroCultivo [nombre=" + getNombre() + ", comuna=" + getComuna() + ", capacidadDelProcesoToneladas="
+                + capacidadDelProcesoToneladas + ", tiempoDeCultivoDias=" + tiempoDeCultivoDias + "]";
     }
 }

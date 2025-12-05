@@ -1,5 +1,11 @@
 package cl.salmontt.model;
 
+/**
+ * clase que representa una planta de proceso, hereda de la clase
+ * UnidadOperativa
+ *
+ */
+
 public class PlantaProceso extends UnidadOperativa {
 
     private int toneladasDeProduccion;
@@ -28,9 +34,18 @@ public class PlantaProceso extends UnidadOperativa {
     }
 
     @Override
+    public void mostrarInformacion() {
+        System.out.println("Tipo: Planta de proceso");
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Comuna: " + getComuna());
+        System.out.println("Toneladas de produccion: " + toneladasDeProduccion);
+        System.out.println("Tiempo de produccion en dias: " + tiempoDeProduccionDias);
+    }
+
+    @Override
     public String toString() {
-        return getNombre() + " [Toneladas de produccion = " + toneladasDeProduccion
-                + ", tiempo de produccion en dias = " + tiempoDeProduccionDias + "]";
+        return "PlantaProceso [nombre=" + getNombre() + ", comuna=" + getComuna() + ", toneladasDeProduccion="
+                + toneladasDeProduccion + ", tiempoDeProduccionDias=" + tiempoDeProduccionDias + "]";
     }
 
 }

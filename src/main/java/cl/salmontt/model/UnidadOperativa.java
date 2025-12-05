@@ -26,6 +26,8 @@ public abstract class UnidadOperativa {
         this.comuna = comuna;
     }
 
+    public abstract void mostrarInformacion();
+
     @Override
     public String toString() {
         return "UnidadOperativa [nombre=" + nombre + ", comuna=" + comuna + "]";
